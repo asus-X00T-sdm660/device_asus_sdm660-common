@@ -25,7 +25,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "X00TD X01BD"
+write_headers "X00T X01BD"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
